@@ -80,4 +80,125 @@ nav{
     width: 90%;
     margin: 0 auto;
     padding-left: 0;
+    list-style: none;
+}
+.specialities-container ul li{
+    text-align: center;
+    padding: 20px;
+}
+.specialities-container ul li h3{
+    margin-bottom: 25px;
+    color: #333;
+}
+.specialities-container ul li p{
+    line-height: 24px;
+    color: #70747A;
+}
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.fa-shield-alt{
+    color: #2CC76A;
+}
+.fa-rocket{
+    color: #ef3F29;
+}
+.fa-comments{
+    color: #EF8F29;
+}
+.pricing-container{
+    padding-bottom: 5em;
+    text-align: center;
+}
+.pricing-container h2{
+    font-size: 36px;
+    margin-top: 0;
+}
+.pricing-container p{
+    font-size: 20px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    width: 90%;
+}
+.plan{
+    width: 220px;
+    max-width: 295px;
+    margin: 0 auto;
+}
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+.plan .price{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #2cc76a;
+    color: #FFF;
+    text-align: center;
+    line-height: 160px;
+    font-size: 18px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #202b34;
+    padding: 50px 0 20px 0;
+}
+.plan .plan-btn{
+    background-color: #2CC76A;
+    color: #FFF;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.plan .recommended{
+  background-color: #e94d4d;
+}
+.searchdomain-container{
+    background-color: #34454E;
+    text-align: center;
+    padding: 5em 0;
+}
+.searchdomain-container h2{
+    color: #FFF;
+    font-size: 42px;
+    margin: 0 0 15px;
+}
+.searchdomain-container p{
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.searchdomain-container input{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+}
+.searchdomain-container input[type=text]{
+    margin-bottom: 25px;
+    width: 60%;
+    font-size: 20px;
+    padding: 20px;
+}
+.searchdomain-container input[type=submit]{
+    background-color: #2CC76A;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 24px;
 }
